@@ -58,11 +58,12 @@ public class ZooApp {
         Savec nejstarsi = null;
         for (Zvire zv : zvire) {
             if (zv instanceof Savec) {
-                if(nejstarsi == null || ((Savec)zv).getVek() < nejstarsi.getVek()) {
+                if(nejstarsi == null || ((Savec)zv).getVek() > nejstarsi.getVek()) {
                     nejstarsi = (Savec) zv;
                 }
             }
         }
+        System.out.println(nejstarsi.getHmotnost());
 
 
 
