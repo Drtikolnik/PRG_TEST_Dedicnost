@@ -8,7 +8,7 @@ public class Savec extends Zvire{
     public Savec() {
         super();
         System.out.println("Zadej typ srsti:");
-        this.typSrsti = sc.nextLine();
+        this.typSrsti =  sc.nextLine();
     }
 
     public void predstavSe() {

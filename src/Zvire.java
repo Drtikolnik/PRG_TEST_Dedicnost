@@ -14,7 +14,7 @@ public class Zvire {
         this.vek = sc.nextInt();
         sc.nextLine();
         System.out.println("Zadej hmotnost (kg): ");
-        this.hmotnost = sc.nextInt();
+        this.hmotnost =  sc.nextInt();
         sc.nextLine();
     }
 

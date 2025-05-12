@@ -9,7 +9,7 @@ public class Plaz extends Zvire{
         super();
         System.out.println("Zadej, jestli má plaz šupiny: ano / ne");
         supiny = sc.nextLine();
-        this.supiny = supiny.toLowerCase();
+        this.supiny =  supiny.toLowerCase();
     }
 
     public void predstavSe() {

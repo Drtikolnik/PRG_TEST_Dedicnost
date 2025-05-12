@@ -9,7 +9,7 @@ public class ZooApp {
 
 
         System.out.println("Kolik zvířat chceš zadat?");
-        int kolikrat = sc.nextInt();
+        int kolikrat =  sc.nextInt();
         sc.nextLine();
 
         for (int i = 0; i < kolikrat; i++) {
